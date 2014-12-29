@@ -14,5 +14,5 @@ DbInterception.Add(new ElmahEfInterceptor());
 
 **Screenshots:**
 
-![ElmahEFLogger](https://raw.githubusercontent.com/VahidN/ElmahEFLogger/Images/elmahef01.png)
-![ElmahEFLogger](https://raw.githubusercontent.com/VahidN/ElmahEFLogger/Images/elmahef02.png)
+![ElmahEFLogger](https://raw.githubusercontent.com/VahidN/ElmahEFLogger/master/Images/elmahef01.png)
+![ElmahEFLogger](https://raw.githubusercontent.com/VahidN/ElmahEFLogger/master/Images/elmahef02.png)
