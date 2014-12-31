@@ -13,7 +13,7 @@ namespace ElmahEFLogger.CustomElmahLogger
         public void LogException<TResult>(DbCommand command,
             DbCommandInterceptionContext<TResult> interceptionContext)
         {
-            var ex = interceptionContext.OriginalException;
+            var ex = interceptionContext.OriginalException ?? interceptionContext.Exception;
             if (ex == null)
                 return;
 

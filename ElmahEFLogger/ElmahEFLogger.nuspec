@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ElmahEFLogger</id>
+    <version>$version$</version>
+    <authors>Vahid Nasiri</authors>
+    <owners>Vahid Nasiri</owners>
+    <licenseUrl>https://github.com/VahidN/ElmahEFLogger/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/VahidN/ElmahEFLogger</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Global exceptions logger for Entity Framework 6.x using ELMAH.</description>
+    <summary>Global exceptions logger for Entity Framework 6.x using ELMAH.</summary>
+    <language>en-US</language>
+    <tags>Logger Logging EntityFramework ELMAH Exception EF6 ORM Analyzers Interceptor</tags>
+    <dependencies>
+      <group>
+        <dependency id="EntityFramework" version="6.1.2"/>
+        <dependency id="elmah.corelibrary" version="1.2.2"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\NET40\ElmahEFLogger*.dll" target="lib\net40" />
+    <file src="bin\Release\NET45\ElmahEFLogger*.dll" target="lib\net45" />
+    <file src="readme.txt" target="" />
+  </files>
+</package>
