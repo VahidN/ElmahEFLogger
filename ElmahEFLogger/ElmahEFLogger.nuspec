@@ -14,7 +14,7 @@
     <tags>Logger Logging EntityFramework ELMAH Exception EF6 ORM Analyzers Interceptor</tags>
     <dependencies>
       <group>
-        <dependency id="EntityFramework" version="6.1.2"/>
+        <dependency id="EntityFramework" version="6.1.3"/>
         <dependency id="elmah.corelibrary" version="1.2.2"/>
       </group>
     </dependencies>
